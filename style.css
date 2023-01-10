@@ -1,0 +1,615 @@
+body {
+  display: flex;
+  background-color: black;
+  font-family: "Rubik", sans-serif;
+}
+.info {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+}
+.info-img {
+  width: 75px;
+  height: 75px;
+}
+.info-h {
+  position: absolute;
+  width: 104px;
+  height: 24px;
+  left: 70px;
+  top: 25px;
+  text-decoration: none;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 24px;
+  color: #0b132a;
+}
+.info-a {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 28px;
+  left: 650px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.info-a2 {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 28px;
+  left: 750px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.info-a3 {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 28px;
+  left: 875px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.info-a4 {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 28px;
+  left: 1020px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.info-reg1 {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  top: 28px;
+  left: 1420px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.info-but {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  top: 18px;
+  left: 1560px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.info-but__a {
+  text-decoration: none;
+  color: #f53855;
+}
+.info-but__a:hover {
+  color: #ffffff;
+}
+.info-but:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.info-reg1:hover {
+  color: #f53855;
+}
+.info-a:hover {
+  border-bottom: 2px solid #f53855;
+  color: #f53855;
+}
+.info-a2:hover {
+  border-bottom: 2px solid #f53855;
+  color: #f53855;
+}
+.info-a3:hover {
+  border-bottom: 2px solid #f53855;
+  color: #f53855;
+}
+.info-a4:hover {
+  border-bottom: 2px solid #f53855;
+  color: #f53855;
+}
+.shop {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 100px;
+  top: 125px;
+}
+.shop:hover {
+  border: 5px solid #f53855;
+}
+.shop-h {
+  position: absolute;
+  color: black;
+  left: 175px;
+  top: -10px;
+}
+.shop-img {
+  position: absolute;
+  top: 50px;
+}
+.shop-p {
+  position: absolute;
+  top: 355px;
+  left: 35px;
+}
+.shop-h2 {
+  position: absolute;
+  top: 390px;
+  left: 180px;
+}
+.shop-button {
+  position: absolute;
+  top: 450px;
+  left: 160px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop2 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 650px;
+  top: 125px;
+}
+.shop2:hover {
+  border: 5px solid #f53855;
+}
+.shop2-h {
+  position: absolute;
+  color: black;
+  left: 175px;
+  top: -10px;
+}
+.shop2-img {
+  position: absolute;
+  top: 50px;
+}
+.shop2-p {
+  position: absolute;
+  top: 355px;
+  left: 95px;
+}
+.shop2-h2 {
+  position: absolute;
+  top: 390px;
+  left: 185px;
+}
+.shop2-button {
+  position: absolute;
+  top: 450px;
+  left: 165px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop2-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop3 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 1200px;
+  top: 125px;
+}
+.shop3:hover {
+  border: 5px solid #f53855;
+}
+.shop3-h {
+  position: absolute;
+  color: black;
+  left: 185px;
+  top: -10px;
+}
+.shop3-img {
+  position: absolute;
+  top: 50px;
+}
+.shop3-p {
+  position: absolute;
+  top: 355px;
+  left: 5px;
+}
+.shop3-h2 {
+  position: absolute;
+  top: 390px;
+  left: 195px;
+}
+.shop3-button {
+  position: absolute;
+  top: 450px;
+  left: 175px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop3-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop4 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 100px;
+  top: 675px;
+}
+.shop4:hover {
+  border: 5px solid #f53855;
+}
+.shop4-h {
+  position: absolute;
+  color: black;
+  left: 185px;
+  top: -10px;
+}
+.shop4-img {
+  position: absolute;
+  top: 50px;
+}
+.shop4-p {
+  position: absolute;
+  top: 355px;
+  left: 100px;
+}
+.shop4-h2 {
+  position: absolute;
+  top: 390px;
+  left: 195px;
+}
+.shop4-button {
+  position: absolute;
+  top: 450px;
+  left: 175px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop4-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop5 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 650px;
+  top: 675px;
+}
+.shop5:hover {
+  border: 5px solid #f53855;
+}
+.shop5-h {
+  position: absolute;
+  color: black;
+  left: 155px;
+  top: -10px;
+}
+.shop5-img {
+  position: absolute;
+  top: 50px;
+}
+.shop5-p {
+  position: absolute;
+  top: 355px;
+  left: 85px;
+}
+.shop5-h2 {
+  position: absolute;
+  top: 390px;
+  left: 185px;
+}
+.shop5-button {
+  position: absolute;
+  top: 450px;
+  left: 165px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop5-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop6 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 1200px;
+  top: 675px;
+}
+.shop6:hover {
+  border: 5px solid #f53855;
+}
+.shop6-h {
+  position: absolute;
+  color: black;
+  left: 155px;
+  top: -10px;
+}
+.shop6-img {
+  position: absolute;
+  top: 50px;
+}
+.shop6-p {
+  position: absolute;
+  top: 355px;
+  left: 75px;
+}
+.shop6-h2 {
+  position: absolute;
+  top: 390px;
+  left: 195px;
+}
+.shop6-button {
+  position: absolute;
+  top: 450px;
+  left: 185px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop6-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop7 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 100px;
+  top: 1230px;
+}
+.shop7:hover {
+  border: 5px solid #f53855;
+}
+.shop7-h {
+  position: absolute;
+  color: black;
+  left: 125px;
+  top: -10px;
+}
+.shop7-img {
+  position: absolute;
+  top: 50px;
+}
+.shop7-p {
+  position: absolute;
+  top: 355px;
+  left: 60px;
+}
+.shop7-h2 {
+  position: absolute;
+  top: 390px;
+  left: 195px;
+}
+.shop7-button {
+  position: absolute;
+  top: 450px;
+  left: 175px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop7-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop8 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 650px;
+  top: 1230px;
+}
+.shop8:hover {
+  border: 5px solid #f53855;
+}
+.shop8-h {
+  position: absolute;
+  color: black;
+  left: 125px;
+  top: -10px;
+}
+.shop8-img {
+  position: absolute;
+  top: 50px;
+}
+.shop8-p {
+  position: absolute;
+  top: 355px;
+  left: 50px;
+}
+.shop8-h2 {
+  position: absolute;
+  top: 390px;
+  left: 185px;
+}
+.shop8-button {
+  position: absolute;
+  top: 450px;
+  left: 165px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop8-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.shop9 {
+  position: absolute;
+  width: 450px;
+  height: 500px;
+  background-color: #ffffff;
+  border: 5px solid blue;
+  left: 1200px;
+  top: 1230px;
+}
+.shop9:hover {
+  border: 5px solid #f53855;
+}
+.shop9-h {
+  position: absolute;
+  color: black;
+  left: 125px;
+  top: -10px;
+}
+.shop9-img {
+  position: absolute;
+  top: 50px;
+}
+.shop9-p {
+  position: absolute;
+  top: 355px;
+  left: 50px;
+}
+.shop9-h2 {
+  position: absolute;
+  top: 390px;
+  left: 185px;
+}
+.shop9-button {
+  position: absolute;
+  top: 450px;
+  left: 165px;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #f53855;
+  color: #f53855;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.shop9-button:hover {
+  background-color: #f53855;
+  color: #ffffff;
+}
+.theend {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 2000px;
+  background-color: #ffffff;
+  display: flex;
+}
+.theend-log {
+  display: flex;
+}
+.but-text {
+  text-decoration: none;
+  color: #f53855;
+}
+.but-text:hover {
+  color: #ffffff;
+}
+.web {
+  position: absolute;
+  display: flex;
+  left: 1520px;
+  top: 5px;
+}
+.web-a {
+  text-decoration: none;
+}
+.the-info{
+  margin-top: 7%;
+  position: absolute;
+  left: 50px;
+}
+.the-email{
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}

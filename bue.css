@@ -1,0 +1,24 @@
+body {
+  background-color: purple;
+  font-family: "Rubik", sans-serif;
+}
+.h1 {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  color: yellow;
+}
+.but {
+  position: absolute;
+  top: 425px;
+  left: 775px;
+  width: 350px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 50px;
+}
+.but-text {
+  text-decoration: none;
+  color: purple;
+  font-size: 30px;
+}
